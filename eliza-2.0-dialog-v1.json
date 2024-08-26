@@ -1,0 +1,1007 @@
+{
+  "name": "Eliza 2.0-dialog",
+  "type": "dialog",
+  "valid": true,
+  "counts": {
+    "intents": 8,
+    "entities": 7,
+    "dialog_nodes": 18
+  },
+  "status": "Available",
+  "created": "2023-10-05T14:01:04.564Z",
+  "updated": "2023-10-05T14:01:04.564Z",
+  "language": "en",
+  "skill_id": "9c2bb9e3-7f5c-4ecc-9526-e5a7b885d72b",
+  "snapshot": "1",
+  "workspace": {
+    "created": "2023-10-05T14:01:04.564Z",
+    "intents": [
+      {
+        "intent": "Topic_Discussion",
+        "created": "2023-10-05T14:01:12.681Z",
+        "updated": "2023-10-05T14:01:12.681Z",
+        "examples": [
+          {
+            "text": "I want to talk about my relationship issues.",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z"
+          },
+          {
+            "text": "I’m struggling with anxiety, can we discuss coping mechanisms?",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z"
+          },
+          {
+            "text": "I need advice on improving my self-esteem.",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z"
+          },
+          {
+            "text": "Can we discuss my work-related stress?",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z"
+          },
+          {
+            "text": "I'm feeling lost in life, can we talk about finding purpose?",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "Self-Care",
+        "created": "2023-10-05T14:01:12.681Z",
+        "updated": "2023-10-05T14:01:12.681Z",
+        "examples": [
+          {
+            "text": "What are some ways I can practise self-care?",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z"
+          },
+          {
+            "text": "How can I manage stress and take care of myself?",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z"
+          },
+          {
+            "text": "I'm feeling overwhelmed, what can I do to relax and unwind?",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z"
+          },
+          {
+            "text": "Can you suggest some self-care activities I can do at home?",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z"
+          },
+          {
+            "text": "How do I create a self-care routine?",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "Emotional_Support",
+        "created": "2023-10-05T14:01:12.681Z",
+        "updated": "2023-10-05T14:01:12.681Z",
+        "examples": [
+          {
+            "text": "I'm dealing with a lot of relationship problems and it's causing me a lot of emotional pain.",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z"
+          },
+          {
+            "text": "I feel lost.",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z"
+          },
+          {
+            "text": "I feel sad.",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z"
+          },
+          {
+            "text": "I've been feeling really anxious and overwhelmed lately.",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z"
+          },
+          {
+            "text": "I've been struggling with depression and it's been affecting my daily life.",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "Goodbye_and_Thank_you",
+        "created": "2023-10-05T14:01:12.681Z",
+        "updated": "2023-10-05T14:01:12.681Z",
+        "examples": [
+          {
+            "text": "Appreciate it",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z"
+          },
+          {
+            "text": "Thank you",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z"
+          },
+          {
+            "text": "Goodbye",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z"
+          },
+          {
+            "text": "Thanks",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z"
+          },
+          {
+            "text": "Bye",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "Greetings",
+        "created": "2023-10-05T14:01:12.681Z",
+        "updated": "2023-10-05T14:01:12.681Z",
+        "examples": [
+          {
+            "text": "Hey",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z"
+          },
+          {
+            "text": "Hi",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z"
+          },
+          {
+            "text": "Good morning",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z"
+          },
+          {
+            "text": "Good afternoon",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z"
+          },
+          {
+            "text": "Hello",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "Coping_Strategies",
+        "created": "2023-10-05T14:01:12.681Z",
+        "updated": "2023-10-05T14:01:12.681Z",
+        "examples": [
+          {
+            "text": "What are some techniques to manage stress?",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z"
+          },
+          {
+            "text": "Can you recommend relaxation techniques for reducing tension?",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z"
+          },
+          {
+            "text": "Can you suggest ways to deal with anxiety attacks?",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z"
+          },
+          {
+            "text": "How can I better cope with grief and loss?",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z"
+          },
+          {
+            "text": "I'm feeling overwhelmed, any tips for managing my emotions?",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "Referral",
+        "created": "2023-10-05T14:01:12.681Z",
+        "updated": "2023-10-05T14:01:12.681Z",
+        "examples": [
+          {
+            "text": "Is there a helpline I can call for immediate help?",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z"
+          },
+          {
+            "text": "I think I need to see a counsellor, can you help me find one?",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z"
+          },
+          {
+            "text": "I'm struggling with depression, can you suggest a mental health professional?",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z"
+          },
+          {
+            "text": "Is there a support group for people with panic disorder near me?",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z"
+          },
+          {
+            "text": "Can you recommend a therapist in my area?",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "Progress_Assessment",
+        "created": "2023-10-05T14:01:12.681Z",
+        "updated": "2023-10-05T14:01:12.681Z",
+        "examples": [
+          {
+            "text": "I want to measure my success, what should I look at?",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z"
+          },
+          {
+            "text": "How do I know if I'm making progress in my career?",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z"
+          },
+          {
+            "text": "Can you suggest methods for assessing my personal growth?",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z"
+          },
+          {
+            "text": "What are some ways I can evaluate my progress?",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z"
+          },
+          {
+            "text": "How can I track my progress towards my goals?",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z"
+          }
+        ],
+        "description": ""
+      }
+    ],
+    "updated": "2023-10-05T14:01:04.564Z",
+    "entities": [
+      {
+        "entity": "Trauma",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "I'm still struggling with past trauma.",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "I went through a traumatic experience a few years ago.",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z",
+            "synonyms": []
+          }
+        ],
+        "created": "2023-10-05T14:01:12.681Z",
+        "updated": "2023-10-05T14:01:12.681Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "Symptoms",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "What are the symptoms of depression?",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "What are the symptoms of anxiety?",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z",
+            "synonyms": []
+          }
+        ],
+        "created": "2023-10-05T14:01:12.681Z",
+        "updated": "2023-10-05T14:01:12.681Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "Topics",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "I need advice on handling relationship issues.",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Can we talk about improving self-esteem?",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "I'm experiencing a lot of work-related stress.",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z",
+            "synonyms": []
+          }
+        ],
+        "created": "2023-10-05T14:01:12.681Z",
+        "updated": "2023-10-05T14:01:12.681Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "Medication",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "What are the medications for depression?",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "What are the medications for anxiety?",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z",
+            "synonyms": []
+          }
+        ],
+        "created": "2023-10-05T14:01:12.681Z",
+        "updated": "2023-10-05T14:01:12.681Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "Diagnosis_of_the_illness",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "What is the diagnosis for depression?",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "What is the diagnosis for anxiety?",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z",
+            "synonyms": []
+          }
+        ],
+        "created": "2023-10-05T14:01:12.681Z",
+        "updated": "2023-10-05T14:01:12.681Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "Behaviour",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "I need help dealing with self-harm.",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "I've been struggling with substance abuse.",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z",
+            "synonyms": []
+          }
+        ],
+        "created": "2023-10-05T14:01:12.681Z",
+        "updated": "2023-10-05T14:01:12.681Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "Emotion",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "I'm so sad about what happened.",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "I've been feeling quite anxious lately.",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "I'm feeling really happy today!",
+            "created": "2023-10-05T14:01:12.681Z",
+            "updated": "2023-10-05T14:01:12.681Z",
+            "synonyms": []
+          }
+        ],
+        "created": "2023-10-05T14:01:12.681Z",
+        "updated": "2023-10-05T14:01:12.681Z",
+        "fuzzy_match": true
+      }
+    ],
+    "language": "en",
+    "metadata": {
+      "skill": {
+        "counts": {
+          "intents": 8,
+          "entities": 7,
+          "dialog_nodes": 18
+        }
+      },
+      "api_version": {
+        "major_version": "v2",
+        "minor_version": "2018-11-08"
+      }
+    },
+    "dialog_nodes": [
+      {
+        "type": "standard",
+        "title": "Diagnosis of the illness",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "To receive a depression diagnosis, a person needs to have at least five symptoms of depression that last for 2 or more weeks. One symptom must be a depressed mood or a loss of interest in almost all activities. People with depression may benefit from psychotherapy, medication, or both."
+                },
+                {
+                  "text": "To diagnose an anxiety disorder, a doctor performs a physical exam, asks about your symptoms, and recommends a blood test, which helps the doctor determine if another condition, such as hypothyroidism, may be causing your symptoms. The doctor may also ask about any medications you are taking."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_5_1696513533740",
+        "created": "2023-10-05T14:01:12.681Z",
+        "updated": "2023-10-05T14:01:12.681Z",
+        "conditions": "@Diagnosis_of_the_illness",
+        "dialog_node": "node_10_1696513871473",
+        "previous_sibling": "node_7_1696513830583"
+      },
+      {
+        "type": "standard",
+        "title": "Behaviours",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "I'm here to support you in your journey to overcome substance abuse."
+                },
+                {
+                  "text": "I'm here to provide guidance and support as you find healthier coping mechanisms and work towards healing from self-harm."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_5_1696513533740",
+        "created": "2023-10-05T14:01:12.681Z",
+        "updated": "2023-10-05T14:01:12.681Z",
+        "conditions": "@Behaviour",
+        "dialog_node": "node_4_1696513798128",
+        "previous_sibling": "node_6_1696513760690"
+      },
+      {
+        "type": "standard",
+        "title": "Trauma",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "I'm here to listen and help you navigate the healing process from your traumatic experience, offering support along the way."
+                },
+                {
+                  "text": "I understand that you're still struggling with past trauma. Let's work together to develop coping strategies that can help you move forward."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_5_1696513533740",
+        "created": "2023-10-05T14:01:12.681Z",
+        "updated": "2023-10-05T14:01:12.681Z",
+        "conditions": "@Trauma",
+        "dialog_node": "node_7_1696513830583",
+        "previous_sibling": "node_4_1696513798128"
+      },
+      {
+        "type": "standard",
+        "title": "Medication",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "There are several types of medication for depression, including selective serotonin reuptake inhibitors (SSRIs), serotonin-norepinephrine reuptake inhibitors (SNRIs), tricyclic antidepressants (TCAs), monoamine oxidase inhibitors (MAOIs), and atypical antidepressants. The specific medication prescribed will depend on the individual's symptoms and medical history, and should always be discussed with a healthcare provider."
+                },
+                {
+                  "text": "There are several types of medication that can be used to treat anxiety, including selective serotonin reuptake inhibitors (SSRIs), serotonin and norepinephrine reuptake inhibitors (SNRIs), benzodiazepines, beta blockers, and pregabalin. However, it's important to note that medication is not the only option for treating anxiety and should always be used in conjunction with therapy and other coping strategies. It's best to talk to a licensed healthcare professional to determine which type of medication may be right for you."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_5_1696513533740",
+        "created": "2023-10-05T14:01:12.681Z",
+        "updated": "2023-10-05T14:01:12.681Z",
+        "conditions": "@Medication",
+        "dialog_node": "node_10_1696513987670",
+        "previous_sibling": "node_8_1696513915313"
+      },
+      {
+        "type": "standard",
+        "title": "Symptoms",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "-Persistent sad, anxious, or “empty” mood.\n-Feelings of hopelessness or pessimism.\n-Feelings of irritability, frustration, or restlessness.\n-Feelings of guilt, worthlessness, or helplessness.\n-Loss of interest or pleasure in hobbies and activities.\n"
+                },
+                {
+                  "text": "-Feeling nervous, restless or tense.\n-Having a sense of impending danger, panic or doom.\n-Having an increased heart rate.\n-Breathing rapidly (hyperventilation)\n-Sweating.\n-Trembling.\n-Feeling weak or tired.\n-Trouble concentrating or thinking about anything other than the present worry.\n"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_5_1696513533740",
+        "created": "2023-10-05T14:01:12.681Z",
+        "updated": "2023-10-05T14:01:12.681Z",
+        "conditions": "@Symptoms",
+        "dialog_node": "node_8_1696513915313",
+        "previous_sibling": "node_10_1696513871473"
+      },
+      {
+        "type": "standard",
+        "title": "Topics",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Of course! I'm here to help you with improving self-esteem. How can I assist you?"
+                },
+                {
+                  "text": "I'm sorry to hear that you're experiencing work-related stress. Let's explore some strategies and coping mechanisms to help alleviate the stress."
+                },
+                {
+                  "text": "Navigating relationship issues can be challenging, but open communication, empathy, and active listening are key to resolving conflicts and strengthening connections."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_5_1696513533740",
+        "created": "2023-10-05T14:01:12.681Z",
+        "updated": "2023-10-05T14:01:12.681Z",
+        "conditions": "@Topics",
+        "dialog_node": "node_6_1696513760690",
+        "previous_sibling": "node_7_1696513698869"
+      },
+      {
+        "type": "standard",
+        "title": "Emotion",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "That's wonderful to hear! I'm here to support you and listen if there's anything you'd like to share."
+                },
+                {
+                  "text": "I'm sorry to hear that you've been feeling anxious. Remember, you're not alone and I'm here to help you through it."
+                },
+                {
+                  "text": "I'm here to listen and support you through this difficult time. Remember, it's okay to feel sad and I'm here to help you navigate through these emotions."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_5_1696513533740",
+        "created": "2023-10-05T14:01:12.681Z",
+        "updated": "2023-10-05T14:01:12.681Z",
+        "conditions": "@Emotion",
+        "dialog_node": "node_7_1696513698869"
+      },
+      {
+        "type": "standard",
+        "title": "Referral",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "I'm sorry, I'm not able to provide specific therapist recommendations as I am an AI assistant. However, you can search online directories or consult with your primary care physician for local therapist options in your area."
+                },
+                {
+                  "text": "Yes, there are several support groups for people with panic disorder in your area."
+                },
+                {
+                  "text": "I recommend seeking a licensed therapist or psychologist in your area who specialises in treating depression."
+                },
+                {
+                  "text": "Of course! I can help you find a counsellor in your area. Please provide me with your location to assist you better."
+                },
+                {
+                  "text": "Yes, there are helplines available for immediate help. Please let me know your location so that I can provide you with the appropriate helpline number."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_2_1696512038507",
+        "created": "2023-10-05T14:01:12.681Z",
+        "updated": "2023-10-05T14:01:12.681Z",
+        "conditions": "#Referral",
+        "dialog_node": "node_9_1696513311589",
+        "previous_sibling": "node_9_1696513237826"
+      },
+      {
+        "type": "standard",
+        "title": "Coping_Strategies",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Some effective techniques to manage stress include practising relaxation exercises, engaging in hobbies or activities that bring joy, maintaining a healthy lifestyle with good sleep and nutrition, and setting realistic goals."
+                },
+                {
+                  "text": "During an anxiety attack, try deep breathing exercises, grounding techniques, and reminding yourself that it will pass and you are safe."
+                },
+                {
+                  "text": "Take time to grieve, seek support from loved ones, engage in self-care activities, and consider speaking with a therapist to process your emotions."
+                },
+                {
+                  "text": "Practise deep breathing exercises, engage in regular physical activity, journal your feelings, and don't hesitate to reach out for professional support if needed."
+                },
+                {
+                  "text": "Try progressive muscle relaxation, guided meditation, deep breathing exercises, or engaging in activities that bring you joy and calmness."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_2_1696512038507",
+        "created": "2023-10-05T14:01:12.681Z",
+        "updated": "2023-10-05T14:01:12.681Z",
+        "conditions": "#Coping_Strategies",
+        "dialog_node": "node_9_1696513237826",
+        "previous_sibling": "node_9_1696513155423"
+      },
+      {
+        "type": "standard",
+        "title": "Emotional_Support",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Feeling lost is a common challenge, but with time and self-reflection, you can regain clarity."
+                },
+                {
+                  "text": "Remember that feeling lost is a temporary state, and together we can explore ways to find your path again."
+                },
+                {
+                  "text": "Take a deep breath and remember that you have the strength to overcome your anxiety and find balance in your life."
+                },
+                {
+                  "text": "Remember that you are not alone in your struggle, and seeking support from loved ones or a professional can help you navigate through this difficult time."
+                },
+                {
+                  "text": "Take the time to prioritise self-care and communicate openly with your partner about your feelings, as working together towards understanding and compromise can help alleviate emotional pain in relationships."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_2_1696512038507",
+        "created": "2023-10-05T14:01:12.681Z",
+        "updated": "2023-10-05T14:01:12.681Z",
+        "conditions": "#Emotional_Support",
+        "dialog_node": "node_8_1696512362583",
+        "previous_sibling": "node_8_1696512067969"
+      },
+      {
+        "type": "standard",
+        "title": "Self-Care",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Some ways to practise self-care include engaging in activities you enjoy, setting boundaries, practising mindfulness, and seeking support from loved ones."
+                },
+                {
+                  "text": "To manage stress and take care of yourself, try implementing stress-reducing activities like exercise, deep breathing, practising self-compassion, and maintaining a healthy work-life balance."
+                },
+                {
+                  "text": "To relax and unwind when feeling overwhelmed, you can try deep breathing exercises, engaging in a hobby or activity you enjoy, taking breaks, practising mindfulness, and seeking support from loved ones."
+                },
+                {
+                  "text": "Some self-care activities you can do at home include taking a warm bath, reading a book, practising yoga or meditation, listening to calming music, journaling, or engaging in creative outlets such as painting or crafting."
+                },
+                {
+                  "text": "To create a self-care routine, start by identifying activities that bring you joy and relaxation, schedule regular time for them in your daily or weekly routine, and prioritise your well-being."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_2_1696512038507",
+        "created": "2023-10-05T14:01:12.681Z",
+        "updated": "2023-10-05T14:01:12.681Z",
+        "conditions": "#Self-Care",
+        "dialog_node": "node_5_1696513383222",
+        "previous_sibling": "node_9_1696513311589"
+      },
+      {
+        "type": "standard",
+        "title": "Topic_Discussion",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Of course, I'm here to listen and provide support as you discuss your relationship issues."
+                },
+                {
+                  "text": "Of course, I'm here to listen and help you with your work-related stress."
+                },
+                {
+                  "text": "You are worthy, capable, and deserving of love and respect - focus on positive self-talk and embracing your unique qualities."
+                },
+                {
+                  "text": "Exploring your passions, values, and strengths can guide you in finding a sense of purpose and direction in life."
+                },
+                {
+                  "text": "Deep breathing exercises, practising mindfulness, engaging in regular physical activity, and seeking support from loved ones or professionals can help in managing anxiety."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_2_1696512038507",
+        "created": "2023-10-05T14:01:12.681Z",
+        "updated": "2023-10-05T14:01:12.681Z",
+        "conditions": "#Topic_Discussion",
+        "dialog_node": "node_9_1696513155423",
+        "previous_sibling": "node_8_1696512362583"
+      },
+      {
+        "type": "standard",
+        "title": "Progress_Assessment",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "To track your progress towards your goals, establish specific and measurable milestones, keep a journal or use a tracking app to monitor your actions and achievements, and celebrate small wins along the way."
+                },
+                {
+                  "text": "Keeping a journal, setting goals, tracking behaviour, seeking feedback, and celebrating progress are all great ways to evaluate progress."
+                },
+                {
+                  "text": "Some methods for assessing personal growth may include reflective journaling, mental health check-ins, self-assessments, and setting SMART goals."
+                },
+                {
+                  "text": "If you're achieving the goals you set for yourself, learning new skills and taking on new challenges, receiving positive feedback from bosses and coworkers, and feeling fulfilled in your work, these are signs that you're making progress in your career."
+                },
+                {
+                  "text": "When measuring success, it's important to look beyond external metrics (e.g. salary, job title) and also consider internal measures such as personal fulfilment, work-life balance, and overall life satisfaction."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_2_1696512038507",
+        "created": "2023-10-05T14:01:12.681Z",
+        "updated": "2023-10-05T14:01:12.681Z",
+        "conditions": "#Progress_Assessment",
+        "dialog_node": "node_3_1696513456372",
+        "previous_sibling": "node_5_1696513383222"
+      },
+      {
+        "type": "standard",
+        "title": "Goodbye_and_Thank_you",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Take care"
+                },
+                {
+                  "text": "Take care of yourself"
+                },
+                {
+                  "text": "Thank you, it makes my day to hear that."
+                },
+                {
+                  "text": "Your welcome"
+                },
+                {
+                  "text": "No worries "
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_2_1696512038507",
+        "created": "2023-10-05T14:01:12.681Z",
+        "updated": "2023-10-05T14:01:12.681Z",
+        "conditions": "#Goodbye_and_Thank_you",
+        "dialog_node": "node_8_1696512067969"
+      },
+      {
+        "type": "standard",
+        "title": "Anything else",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "I didn't understand. You can try rephrasing."
+                },
+                {
+                  "text": "Can you reword your statement? I'm not understanding."
+                },
+                {
+                  "text": "I didn't get your meaning."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2023-10-05T14:01:12.681Z",
+        "updated": "2023-10-05T14:01:12.681Z",
+        "conditions": "anything_else",
+        "dialog_node": "Anything else",
+        "previous_sibling": "node_5_1696513533740",
+        "disambiguation_opt_out": true
+      },
+      {
+        "type": "folder",
+        "title": "Entities Folder",
+        "created": "2023-10-05T14:01:12.681Z",
+        "updated": "2023-10-05T14:01:12.681Z",
+        "digress_in": "does_not_return",
+        "dialog_node": "node_5_1696513533740",
+        "previous_sibling": "node_2_1696512038507"
+      },
+      {
+        "type": "folder",
+        "title": "Intents Folder",
+        "created": "2023-10-05T14:01:12.681Z",
+        "updated": "2023-10-05T14:01:12.681Z",
+        "dialog_node": "node_2_1696512038507",
+        "previous_sibling": "Welcome"
+      },
+      {
+        "type": "standard",
+        "title": "Welcome",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Hello there, I am Eliza 2.0"
+                },
+                {
+                  "text": "Hello I am Eliza 2.0, how are you doing?"
+                },
+                {
+                  "text": "Hello I am Eliza 2.0, how are you?"
+                },
+                {
+                  "text": "Good morning, nice to meet you, I am Eliza 2.0"
+                },
+                {
+                  "text": "Good afternoon, nice to see you, I am Eliza 2.0 "
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2023-10-05T14:01:12.681Z",
+        "updated": "2023-10-05T14:01:12.681Z",
+        "conditions": "#Greetings",
+        "dialog_node": "Welcome"
+      }
+    ],
+    "counterexamples": [
+      {
+        "text": "What are the medications for anxiety?",
+        "created": "2023-10-05T14:01:12.681Z",
+        "updated": "2023-10-05T14:01:12.681Z"
+      },
+      {
+        "text": "What are the medications for depression?",
+        "created": "2023-10-05T14:01:12.681Z",
+        "updated": "2023-10-05T14:01:12.681Z"
+      }
+    ],
+    "learning_opt_out": false
+  },
+  "description": "Updated all inputs in the chatbot",
+  "assistant_id": "0f55ed5e-b25b-41d4-8eea-335d1479a783",
+  "dialog_settings": {
+    "source_assistant": "22be343e-4d57-47a3-a4f5-96de3cfa5246"
+  },
+  "assistant_references": [
+    {
+      "name": "Eliza 2.0",
+      "assistant_id": "22be343e-4d57-47a3-a4f5-96de3cfa5246",
+      "skill_reference": "main skill"
+    }
+  ]
+}
